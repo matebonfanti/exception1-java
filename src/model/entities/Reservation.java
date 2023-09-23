@@ -64,7 +64,7 @@ public class Reservation {
 			return "Reservation dates for update must be future dates";
 		}
 		if (!checkOut.after(checkIn)){
-			return "Check-out must be after check-in date";
+			return "Check-out must be after check-in date ";
 			
 		}
 		this.checkIn = checkIn;
